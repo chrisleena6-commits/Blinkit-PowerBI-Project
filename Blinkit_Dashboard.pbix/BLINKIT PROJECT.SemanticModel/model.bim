@@ -1,0 +1,591 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"BlinkIT Grocery Data\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.131.1126.0 (24.07)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "BlinkIT Grocery Data",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Item Fat Content",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "52696043-afd8-4bdd-9ba7-de8f9f0a0e10",
+            "sourceColumn": "Item Fat Content",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Item Identifier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0f7848dd-79ce-4894-bb60-09bfb647dc78",
+            "sourceColumn": "Item Identifier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Item Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cc4324e9-788f-49bd-86c4-4a47e8aa0500",
+            "sourceColumn": "Item Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outlet Establishment Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c33f97bb-f869-4d71-8a1e-9e0860307eba",
+            "sourceColumn": "Outlet Establishment Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Outlet Identifier",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "776cfa3b-2f14-4ef1-9f3f-ba12e3074c8a",
+            "sourceColumn": "Outlet Identifier",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outlet Location Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "08330eff-5cef-4db9-8417-8a8dfeed50d0",
+            "sourceColumn": "Outlet Location Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outlet Size",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "39601f83-a6d6-431e-8bc8-af20aadf9245",
+            "sourceColumn": "Outlet Size",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Outlet Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "bc4ab56d-bc72-4d9a-9b9a-8dd1e589241e",
+            "sourceColumn": "Outlet Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Item Visibility",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "89e95f22-4ea0-4b06-8ff2-2d3a0ef888a5",
+            "sourceColumn": "Item Visibility",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Item Weight",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "e85051cb-15c7-4c2e-8344-0119c99faf83",
+            "sourceColumn": "Item Weight",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Sales",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "4655bcb0-c364-408c-b2e7-2e681502e44f",
+            "sourceColumn": "Sales",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Rating",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "76d62cd9-1970-4446-83fd-9d52ef3ff385",
+            "sourceColumn": "Rating",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "a2f44b82-bcc5-4fb1-a4fa-5c417a86322b",
+        "measures": [
+          {
+            "name": "TOTAL SALES",
+            "expression": "SUM('BlinkIT Grocery Data'[Sales])",
+            "formatString": "0.00",
+            "lineageTag": "9a726d6b-54c7-4166-902b-30ddd423c480"
+          },
+          {
+            "name": "AVG SALES",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE('BlinkIT Grocery Data'[Sales])",
+            "lineageTag": "2eb507bb-44d2-4a22-9990-92c0fe9c7432"
+          },
+          {
+            "name": "NO OF ITEMS",
+            "expression": "COUNTROWS('BlinkIT Grocery Data') ",
+            "formatString": "0",
+            "lineageTag": "33179d7c-3834-47ac-b37d-c027bea9b858"
+          },
+          {
+            "name": "AVG RATING",
+            "expression": "AVERAGE('BlinkIT Grocery Data'[Rating])",
+            "formatString": "#,0.00",
+            "lineageTag": "e0c6d678-3bba-41c4-b803-755fd9c3c414"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "BlinkIT Grocery Data",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\chris\\OneDrive\\ドキュメント\\My Tableau Repository\\Datasources\\BlinkIT Grocery Data (1).xlsx\"), null, true),",
+                "    #\"BlinkIT Grocery Data_Sheet\" = Source{[Item=\"BlinkIT Grocery Data\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"BlinkIT Grocery Data_Sheet\", [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Item Fat Content\", type text}, {\"Item Identifier\", type text}, {\"Item Type\", type text}, {\"Outlet Establishment Year\", Int64.Type}, {\"Outlet Identifier\", type text}, {\"Outlet Location Type\", type text}, {\"Outlet Size\", type text}, {\"Outlet Type\", type text}, {\"Item Visibility\", type number}, {\"Item Weight\", type number}, {\"Sales\", type number}, {\"Rating\", Int64.Type}}),",
+                "    #\"Replaced Value\" = Table.ReplaceValue(#\"Changed Type\",\"LF\",\"Low Fat\",Replacer.ReplaceText,{\"Item Fat Content\"}),",
+                "    #\"Replaced Value1\" = Table.ReplaceValue(#\"Replaced Value\",\"low fat\",\"Low Fat\",Replacer.ReplaceText,{\"Item Fat Content\"}),",
+                "    #\"Replaced Value2\" = Table.ReplaceValue(#\"Replaced Value1\",\"reg\",\"Regular\",Replacer.ReplaceText,{\"Item Fat Content\"})",
+                "in",
+                "    #\"Replaced Value2\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DateTableTemplate_4e97c638-4f2c-473f-b0a3-e34bdc8fc229",
+        "annotations": [
+          {
+            "name": "__PBI_TemplateDateTable",
+            "value": "true"
+          },
+          {
+            "name": "DefaultItem",
+            "value": "DateHierarchy"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              }
+            ],
+            "dataCategory": "PaddedDateTableDates",
+            "dataType": "dateTime",
+            "formatString": "General Date",
+            "isHidden": true,
+            "isNameInferred": true,
+            "lineageTag": "b096852a-4eb0-421f-8252-e2f0198d60b7",
+            "sourceColumn": "[Date]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Year"
+              }
+            ],
+            "dataCategory": "Years",
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "8c275079-7ce0-47c4-bed1-cd02c69de9ee",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "MonthNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "MonthNumber"
+              }
+            ],
+            "dataCategory": "MonthOfYear",
+            "dataType": "int64",
+            "expression": "MONTH([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "c51749b6-6de3-49ca-b941-3d3ef09f3dc0",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Month"
+              }
+            ],
+            "dataCategory": "Months",
+            "dataType": "string",
+            "expression": "FORMAT([Date], \"MMMM\")",
+            "isHidden": true,
+            "lineageTag": "5196f7a7-7f49-4c9d-bb7d-26a012f11748",
+            "sortByColumn": "MonthNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "QuarterNo",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "QuarterNumber"
+              }
+            ],
+            "dataCategory": "QuarterOfYear",
+            "dataType": "int64",
+            "expression": "INT(([MonthNo] + 2) / 3)",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "96156d69-f3f3-4419-9878-24f58fdac5aa",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Quarter"
+              }
+            ],
+            "dataCategory": "Quarters",
+            "dataType": "string",
+            "expression": "\"Qtr \" & [QuarterNo]",
+            "isHidden": true,
+            "lineageTag": "eff359b2-15bd-494f-b12c-89e7a5e5661e",
+            "sortByColumn": "QuarterNo",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Day",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "User"
+              },
+              {
+                "name": "TemplateId",
+                "value": "Day"
+              }
+            ],
+            "dataCategory": "DayOfMonth",
+            "dataType": "int64",
+            "expression": "DAY([Date])",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "e46b3335-3ad7-4838-9b14-53bb43f58db2",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Date Hierarchy",
+            "annotations": [
+              {
+                "name": "TemplateId",
+                "value": "DateHierarchy"
+              }
+            ],
+            "levels": [
+              {
+                "name": "Year",
+                "column": "Year",
+                "lineageTag": "529a9ddf-82f8-4ced-8011-b315adfdc6e7",
+                "ordinal": 0
+              },
+              {
+                "name": "Quarter",
+                "column": "Quarter",
+                "lineageTag": "85d53614-33ce-4f0c-a86d-4017fcd95bfd",
+                "ordinal": 1
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "61787d48-6eee-4f1f-84bb-361fec5cbe22",
+                "ordinal": 2
+              },
+              {
+                "name": "Day",
+                "column": "Day",
+                "lineageTag": "1bfb4683-b78d-4940-b09d-57735c755468",
+                "ordinal": 3
+              }
+            ],
+            "lineageTag": "195c0f60-f397-43bb-b705-36f2c912c629"
+          }
+        ],
+        "isHidden": true,
+        "isPrivate": true,
+        "lineageTag": "0689537b-990b-4b0e-82f7-67ffd04327fd",
+        "partitions": [
+          {
+            "name": "DateTableTemplate_4e97c638-4f2c-473f-b0a3-e34bdc8fc229",
+            "mode": "import",
+            "source": {
+              "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))",
+              "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "MATRICS 2",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "4bea440830ff4141a6206f0063c06e80"
+          }
+        ],
+        "columns": [
+          {
+            "name": "MATRICS",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDataTypeInferred": true,
+            "isNameInferred": false,
+            "lineageTag": "9f884b05-e4a8-4221-bd9a-643d1e16315c",
+            "relatedColumnDetails": {
+              "groupByColumns": [
+                {
+                  "groupingColumn": "MATRICS Fields"
+                }
+              ]
+            },
+            "sortByColumn": "MATRICS Order",
+            "sourceColumn": "[Value1]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "MATRICS Fields",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "extendedProperties": [
+              {
+                "name": "ParameterMetadata",
+                "type": "json",
+                "value": {
+                  "kind": 2,
+                  "version": 3
+                }
+              }
+            ],
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "b6005bc9-d3c1-4414-9622-c8872e4c21da",
+            "sortByColumn": "MATRICS Order",
+            "sourceColumn": "[Value2]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "MATRICS Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isHidden": true,
+            "isNameInferred": false,
+            "lineageTag": "bb65bff5-6277-475e-84c5-2ccf2203639b",
+            "sourceColumn": "[Value3]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "fd3819af-1b21-4acf-8943-d350d8f4e443",
+        "partitions": [
+          {
+            "name": "MATRICS 2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "{",
+                "    (\"TOTAL SALES\", NAMEOF('BlinkIT Grocery Data'[TOTAL SALES]), 0),",
+                "    (\"AVERAGE SALES\", NAMEOF('BlinkIT Grocery Data'[AVG SALES]), 1),",
+                "    (\"NO OF ITEMS\", NAMEOF('BlinkIT Grocery Data'[NO OF ITEMS]), 2),",
+                "    (\"AVERAGE RATING\", NAMEOF('BlinkIT Grocery Data'[AVG RATING]), 3)",
+                "}"
+              ],
+              "type": "calculated"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
